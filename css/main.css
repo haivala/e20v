@@ -1,0 +1,237 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; width: 100%}
+
+body {
+  
+  background-color: #000;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+ul {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+
+.site {
+  background: #000 url('/img/bg.png') repeat;
+  font-size: 115%;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 1.5em;
+  height: 60%;
+}
+
+.headerimg {
+	background: #000 url('/img/header-img.png') no-repeat;
+	height: 484px;
+	background-position: 50% 50%;
+	position: relative; 
+}
+#header {
+	width: 100%;
+	height: 494px;
+	
+}
+.navimg {
+	background: url('/img/navi.png') no-repeat;
+	top: 25px;
+	height: 104px;
+	position: absolute;
+	width: 100%;
+	background-position: 50% 50%; 
+}
+.navholder {
+	max-width: 949px;
+	margin: 0 auto;
+	height: 80px;
+	position: relative;
+	margin-top: 11px;
+	font-family: Myriad Pro;
+}	
+
+#header ul {
+	float: right;
+	width: 60%;
+	display: table;
+	height: 100%;
+}
+#header ul li {
+	vertical-align: middle;
+	height: 100%;
+	display: table-cell;
+}
+#header ul li a{
+	text-decoration: none;
+	color: #bf8438;
+	font-size: 16px;
+	font-weight: 600;
+}
+#header a:focus{
+	color: #965003;
+}
+#header ul li a.active{
+	text-decoration: none;
+	color: #dfa458;
+}
+
+	
+#header .countdown_holder {
+	background: url('/img/aika.png') no-repeat;
+	width: 100%;
+	background-position: 50% 50%;
+        position: relative;
+	top: -65px;
+	height: 221px;
+
+}
+.content {
+	background: url('/img/content-bg.png') repeat;
+	max-width: 949px;
+	margin: 0 auto;
+	padding:  0 2%;
+	margin-bottom: 4%;
+}
+h1.header {
+	text-align: center;
+	font-size: 30px;
+}
+#home {
+	padding: 80px 0;
+}
+/*****************************************************************************/
+/*
+/* Artistit 
+/*
+/*****************************************************************************/
+
+.artist_name {
+	margin: 0 auto;
+	height: 121px;
+	text-align: center;
+	width: 755px;
+}
+.artist_name2 {
+	margin: 0 auto;
+	height: 124px;
+	text-align: center;
+	width: 399px;
+}
+
+
+.ryanelliot {
+	background: url('/img/artisti_nimet/ryanelliot.png') no-repeat;
+	height: 100%;
+}
+
+.autopsy {
+	background: url('/img/artisti_nimet/autopsy.png') no-repeat;
+	height: 100%;
+}
+.bonerm {
+	background: url('/img/artisti_nimet/bonerm.png') no-repeat;
+	height: 100%;
+}
+.domandroland {
+	background: url('/img/artisti_nimet/domandroland.png') no-repeat;
+	height: 100%;
+}
+.indigo {
+	background: url('/img/artisti_nimet/indigo.png') no-repeat;
+	height: 100%;
+}
+.mra {
+	background: url('/img/artisti_nimet/mra.png') no-repeat;
+	height: 100%;
+}
+.pacou {
+	background: url('/img/artisti_nimet/pacou.png') no-repeat;
+	height: 100%;
+}
+.soukie{
+	background: url('/img/artisti_nimet/soukie.png') no-repeat;
+	height: 100%;
+}
+
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
