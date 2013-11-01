@@ -29,7 +29,7 @@ p { margin: 1em 0; }
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
-.center {text-align: center;}
+.center {text-align: center; clear:both;}
 /*****************************************************************************/
 /*
 /* Home
@@ -65,7 +65,19 @@ ul.posts span {
   line-height: 1.5em;
   height: 100%;
 }
-
+h1 {
+	font-size: 40px;
+	padding-top: 40px;
+}
+h2 {
+	text-decoration: underline;
+	font-size: 24px;
+	margin-bottom: 1em;
+}
+h3 {
+	font-size: 20px;
+	margin: 1% 0;	
+}
 .headerimg {
 	background: #000 url('/img/header-img.png') no-repeat;
 	height: 484px;
@@ -75,7 +87,7 @@ ul.posts span {
 #header {
 	width: 100%;
 	height: 494px;
-	
+	margin-bottom: 40px;	
 }
 .navimg {
 	background: url('/img/navi.png') no-repeat;
@@ -125,7 +137,7 @@ ul.posts span {
 	width: 100%;
 	background-position: 50% 50%;
         position: relative;
-	top: -65px;
+	top: -70px;
 	height: 221px;
 
 }
@@ -142,8 +154,12 @@ h1.header {
 	text-align: center;
 	font-size: 30px;
 }
+.space {
+	display:block;
+	height: 80px;
+	clear: both;
+}
 .home {
-	padding: 80px 0;
 }
 /*****************************************************************************/
 /*
