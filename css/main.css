@@ -29,7 +29,7 @@ p { margin: 1em 0; }
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
-
+.center {text-align: center;}
 /*****************************************************************************/
 /*
 /* Home
@@ -63,7 +63,7 @@ ul.posts span {
   text-align: justify;
   margin: 0 auto;
   line-height: 1.5em;
-  height: 60%;
+  height: 100%;
 }
 
 .headerimg {
@@ -135,12 +135,14 @@ ul.posts span {
 	margin: 0 auto;
 	padding:  0 2%;
 	margin-bottom: 4%;
+	height: 100%;
+	display: block;
 }
 h1.header {
 	text-align: center;
 	font-size: 30px;
 }
-#home {
+.home {
 	padding: 80px 0;
 }
 /*****************************************************************************/
@@ -148,6 +150,17 @@ h1.header {
 /* Artistit 
 /*
 /*****************************************************************************/
+
+.alist {
+	width: 48%;
+	position: relative;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
 
 .artist_name {
 	margin: 0 auto;
