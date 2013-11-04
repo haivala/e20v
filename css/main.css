@@ -83,6 +83,16 @@ ul {
 /*
 /*****************************************************************************/
 
+#home {
+	padding:0 20%;
+}
+.huge {
+	line-height: 40px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
 button {
 	-moz-box-shadow: inset 0px -35px 0px -20px #4c2917;
 	-webkit-box-shadow: inset 0px -35px 0px -20px #4c2917;
@@ -260,7 +270,7 @@ h1.header {
 	display: inline-block;
 }
 .home .alist{
-	width: 45%;
+	width: 43%;
 }
 /*****************************************************************************/
 /*
