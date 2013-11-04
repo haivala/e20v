@@ -10,9 +10,7 @@
   padding: 0;
 }
 
-html, body { height: 100%; width: 100%
-
-}
+html, body { height: 100%; width: 100%;}
 
 body {
   background: #000 url('/img/bg.png') repeat;
@@ -27,13 +25,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; font-family: Oma4;}
+p { margin: 1em 0; font-family: Oma5;}
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #4c2917; }
+a:hover   { color: #FFF; }
+a:visited { color: #3e2213; }
 .center {text-align: center; clear:both;}
 strong {font-family: Oma2;}
+
+
 
 /*****************************************************************************/
 /*
@@ -68,25 +68,11 @@ strong {font-family: Oma2;}
 }
 
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 ul {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts span {
-  color: #aaa;
-  font-family:Oma2, "Courier New", monospace;
-  font-size: 80%;
-}
 
 /*****************************************************************************/
 /*
@@ -94,7 +80,50 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
-
+button {
+	-moz-box-shadow:inset 0px -41px 0px -16px #4c2917;
+	-webkit-box-shadow:inset 0px -41px 0px -16px #4c2917;
+	box-shadow:inset 0px -41px 0px -16px #4c2917;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9d7534), color-stop(1, #4c2917) );
+	background:-moz-linear-gradient( center top, #9d7534 5%, #4c2917 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9d7534', endColorstr='#4c2917');
+	background-color:#9d7534;
+	-webkit-border-top-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-left-radius:9px;
+	text-indent:0px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	font-style:normal;
+	height:54px;
+	line-height:54px;
+	width:138px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 2px 11px #3e2213;
+}
+button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c2917), color-stop(1, #9d7534) );
+background:-moz-linear-gradient( center top, #4c2917 5%, #9d7534 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c2917', endColorstr='#9d7534');
+background-color:#4c2917;
+}
+button:active {
+	position:relative;
+top:1px;
+}
 .site {
   font-size: 115%;
   text-align: justify;
@@ -162,6 +191,16 @@ h3 {
 	font-size: 16px;
 	font-weight: 600;
 }
+#header a.homelink {
+	width: 75px;
+	height: 80px;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	left: 180px;
+	float: left;	
+}
+
 #header a:focus{
 	color: #965003;
 }
@@ -201,8 +240,17 @@ h1.header {
 }
 .space {
 	display:block;
-	height: 80px;
+	height: 50px;
 	clear: both;
+}
+.fourth {
+	width: 40%;
+}
+.sixth {
+	width: 60%;
+}
+.inline {
+	display: inline-block;
 }
 .home {
 }
@@ -212,10 +260,31 @@ h1.header {
 /*
 /*****************************************************************************/
 
-.alist {
-	width: 48%;
-	position: relative;
+#artist {
+	width: 79%;
+	display: inline-block;
+
 }
+.alist h2{
+	color: #4c2917;
+	text-decoration:none;
+}
+
+.artist_holder{
+	width: 100%;
+	display: block;
+	margin-top: 1em;
+}
+.alist {
+	width: 17%;
+	position: relative;
+ 	background:url('/img/separator_vertical.png') no-repeat; 
+	background-position: right;
+	margin-right: 1%;
+	padding-right: 2%;
+	text-align: right;
+}
+
 .left {
 	float: left;
 }
@@ -227,13 +296,13 @@ h1.header {
 	margin: 0 auto;
 	height: 121px;
 	text-align: center;
-	width: 755px;
+	max-width: 755px;
 }
 .artist_name2 {
 	margin: 0 auto;
 	height: 124px;
 	text-align: center;
-	width: 399px;
+	max-width: 399px;
 }
 
 
