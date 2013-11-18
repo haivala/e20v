@@ -36,12 +36,15 @@ $(function(){
 });
 
 $("#button1").click(function() {
-//	$("#tab2").fadeOut("slow");
 	$("#tab2").hide();
 	$("#tab1").show();
 });
 $("#button2").click(function() {
-	$("#tab1").fadeOut();
 	$("#tab1").hide();
 	$("#tab2").show();
 });
+
+if (window.location.hash==="#Q&A"){
+	$("#tab1").hide();
+	$("#tab2").show();
+}
