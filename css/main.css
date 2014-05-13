@@ -13,7 +13,7 @@
 html, body { height: 100%; width: 100%;}
 
 body {
-  background: #000 url('/img/bg.png') repeat;
+  background: #000 url('../img/bg.png') repeat;
   font: 13.34px Oma5, Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -172,7 +172,7 @@ h3 {
 	margin: 1% 0;	
 }
 .headerimg {
-	background: #000 url('/img/header-img.png') no-repeat;
+	background: #000 url('../img/header-img.png') no-repeat;
 	height: 484px;
 	background-position: 50% 50%;
 	position: relative; 
@@ -182,7 +182,7 @@ h3 {
 	height: 525px;
 }
 .navimg {
-	background: url('/img/navi.png') no-repeat;
+	background: url('../img/navi.png') no-repeat;
 	top: 25px;
 	height: 104px;
 	position: absolute;
@@ -236,7 +236,7 @@ h3 {
 
 	
 #header .countdown_holder_img {
-	background: url('/img/aika.png') no-repeat;
+	background: url('../img/aika.png') no-repeat;
 	width: 100%;
 	background-position: 50% 50%;
         position: relative;
@@ -253,7 +253,7 @@ h3 {
 }
 
 .content {
-	background: url('/img/content-bg.png') repeat;
+	background: url('../img/content-bg.png') repeat;
 	max-width: 949px;
 	margin: 0 auto;
 	padding:  0 2% 2% 2%;
@@ -298,7 +298,7 @@ h1.header {
 }
 
 #footer .countdown_holder_img {
-	background: url('/img/aika.png') no-repeat;
+	background: url('../img/aika.png') no-repeat;
 	width: 100%;
 	background-position: 50% 50%;
         position: relative;
@@ -364,7 +364,7 @@ h1.header {
 .alist {
 	width: 22%;
 	position: relative;
- 	background:url('/img/separator_vertical.png') no-repeat; 
+ 	background:url('../img/separator_vertical.png') no-repeat; 
 	background-position: right;
 	margin-right: 3%;
 	padding-right: 4%;
@@ -384,20 +384,20 @@ h1.header {
 
 
 .ryanelliot {
-	background: url('/img/artisti_nimet/ryanelliot.png') no-repeat;
+	background: url('../img/artisti_nimet/ryanelliot.png') no-repeat;
 	height: 100%;
 }
 
 .autopsy {
-	background: url('/img/artisti_nimet/autopsy.png') no-repeat;
+	background: url('../img/artisti_nimet/autopsy.png') no-repeat;
 	height: 100%;
 }
 .bonerm {
-	background: url('/img/artisti_nimet/bonerm.png') no-repeat;
+	background: url('../img/artisti_nimet/bonerm.png') no-repeat;
 	height: 100%;
 }
 .domandroland {
-	background: url('/img/artisti_nimet/domandroland.png') no-repeat;
+	background: url('../img/artisti_nimet/domandroland.png') no-repeat;
 	height: 100%;
 }
 .indigo {
