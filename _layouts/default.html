@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>e20v - {{ page.title }}</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<link rel="stylesheet" href="/css/jquery.countdown.css" />
-        <link rel="stylesheet" href="/css/main.css">
-	<link rel="stylesheet" type="text/css" href="/css/colorbox.css">
+	<link rel="stylesheet" href="{{page.relative}}css/jquery.countdown.css" />
+        <link rel="stylesheet" href="{{page.relative}}css/main.css">
+	<link rel="stylesheet" type="text/css" href="{{page.relative}}css/colorbox.css">
          <script type="text/javascript">
              var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-34945895-2']);
@@ -26,7 +26,7 @@
 		<div class="headerimg">
 				<div class="navimg">
 					<div class="navholder">
-					<a href="/"  class="homelink"></a>
+					<a href="{{page.relative}}"  class="homelink"></a>
 					{% include navigation.html %}
 					</div>
 				</div>
@@ -44,7 +44,7 @@
 		  {{ content }}
 	  	</div>
         </div>
-<script src="/js/script.js"></script>
-<script type="text/javascript" src="/js/jquery.countdown.js"></script>
+<script src="{{page.relative}}js/script.js"></script>
+<script type="text/javascript" src="{{page.relative}}js/jquery.countdown.js"></script>
     </body>
 </html>
